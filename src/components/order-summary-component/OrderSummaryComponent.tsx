@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import {
   Text,
@@ -8,7 +7,7 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-import {tailwind} from "../../../tailwind";
+import {tailwind} from '../../../tailwind';
 
 const OrderSummaryComponent = () => {
   return (
@@ -88,10 +87,12 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '30%',
     flex: 1,
+    paddingVertical: 16,
   },
   coverImage: {
     resizeMode: 'cover',
     width: '100%',
+    height: 200,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
   },
